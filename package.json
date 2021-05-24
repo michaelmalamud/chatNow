@@ -2,9 +2,10 @@
   "name": "chatnow",
   "version": "1.0.0",
   "description": "real time chat app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/michaelmalamud/chatNow/issues"
   },
-  "homepage": "https://github.com/michaelmalamud/chatNow#readme"
+  "homepage": "https://github.com/michaelmalamud/chatNow#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10",
+    "socket.io": "^4.1.2"
+  }
 }
