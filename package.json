@@ -1,0 +1,22 @@
+{
+  "name": "chatnow",
+  "version": "1.0.0",
+  "description": "real time chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelmalamud/chatNow.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Michael Malamud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelmalamud/chatNow/issues"
+  },
+  "homepage": "https://github.com/michaelmalamud/chatNow#readme"
+}
